@@ -4,7 +4,8 @@ Result of print(score)
 [0.03533869992421671, 0.9931]
 
 
-Definitions for :
+Definitions  are below :
+
 Convolution is the process of filteration on input image that leads to an output with reduced pixels
 
 Filters/Kernels is group of weights that scan the entire input. Based on the weights , features are detected

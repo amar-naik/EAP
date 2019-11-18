@@ -1,7 +1,11 @@
 # EAP
+
+Assignment 1 output is below
+
+
 Result of print(score)
 
-[0.03533869992421671, 0.9931]
+0.03618191050623352, 0.9932
 
 
 Definitions  are below :
@@ -14,7 +18,7 @@ Epochs indicates the number of times dataset is processed entirely through the n
 
 1x1 Convolution maps all input pixels with output channels to output pixels. 
 
-3x3 Convolution reduces the depth of input image by 2 pixels
+3x3 is an expensive kernel. It reduces the depth of input image by 2 pixels
 
 Feature Maps is the output created by application of a filter on input (previous layer)
 

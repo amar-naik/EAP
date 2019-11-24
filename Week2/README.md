@@ -97,18 +97,31 @@ Plan was to understand the difference between the 8 codes given in this assignme
 https://docs.google.com/spreadsheets/d/1h55ivLJQcw70GOzuPLpsNS-stCxTdUEWllb8faZJKnY/edit?usp=sharing
 
 
-Common
+Common :
+
 All the programs have input shape of (28,28,1) in the first layer of sequential model
+
 Convolution filter size of 3 X 3 applied in the first step
+
 RELU activation function is used
 
-Difference
+
+Difference :
+
 Convolution filters used in the programs vary (ie. 32, 16, 10 filters used)
+
 Also at each step of convolution the filter size is changed in each program
+
 Except first program, in all other programs max pooling is applied
 
+
 To achieve the output of 99.4% accuracy with less than 15k params
+
 Changed the convolution filters in the sequential model to see if total params is less than 15k params
+
 Post that the focus was on model evaluation so that accuracy of 99.4 was also done.
+
 Also was observing accuracy at each epoch to ensure that it is not stagnant
+
 Post achieving the accuracy, understood that by default bias is set to true if it is no specified. Hence enabled use_bias= False And run the program again since accuracy changed
+

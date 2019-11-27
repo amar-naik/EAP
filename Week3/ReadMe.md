@@ -2,6 +2,7 @@
 1.
 
 Validation Accuracy after 50 epochs for base network : 82.85
+
 Model took 1012.29 seconds to train
 
 

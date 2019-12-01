@@ -9,6 +9,7 @@ For Given Program , the Accuracy on test data is: 82.62 . Total params: 1,172,41
 New modified Program, the Accuracy on test data is: 82.24 . Total params: 98,326
 
 In New modified Program, Epoch 48/50 is below
+
 195/195 [==============================] - 24s 124ms/step - loss: 0.2738 - acc: 0.9017 - val_loss: 0.5806 - val_acc: 0.8329
 
 

@@ -7,6 +7,7 @@ For Given Program , the Accuracy on test data is: 82.62 . Total params: 1,172,41
 
 
 New modified Program, the Accuracy on test data is: 82.24 . Total params: 98,326
+
 In New modified Program, Epoch 48/50 is below
 195/195 [==============================] - 24s 124ms/step - loss: 0.2738 - acc: 0.9017 - val_loss: 0.5806 - val_acc: 0.8329
 
@@ -62,10 +63,7 @@ model.summary()
 
 3.  50 epoch log for new modified code is below : 
 
-/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:12: UserWarning: The semantics of the Keras 2 argument `steps_per_epoch` is not the same as the Keras 1 argument `samples_per_epoch`. `steps_per_epoch` is the number of batches to draw from the generator at each epoch. Basically steps_per_epoch = samples_per_epoch/batch_size. Similarly `nb_val_samples`->`validation_steps` and `val_samples`->`steps` arguments have changed. Update your method calls accordingly.
-  if sys.path[0] == '':
-/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:12: UserWarning: Update your `fit_generator` call to the Keras 2 API: `fit_generator(<keras_pre..., validation_data=(array([[[..., verbose=1, steps_per_epoch=195, epochs=50)`
-  if sys.path[0] == '':
+
 Epoch 1/50
 195/195 [==============================] - 28s 143ms/step - loss: 1.5429 - acc: 0.4537 - val_loss: 1.5794 - val_acc: 0.4771
 Epoch 2/50

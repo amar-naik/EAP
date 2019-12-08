@@ -12,5 +12,7 @@ Assignment 4B:
   - Folloiwng steps was done
   
      Trained on CIFAR10 data
+     
      Run for 50 Epochs and cross 88% Validation Accuracy
+     
      Showed GradCam results for 10 images sourced from the internet
